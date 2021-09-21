@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Weight Converter</h1>
+        </header>
+        <form class="container">
+            <div id="unit-input">
+                <input type="number" id="input" placeholder="enter unit here...">
+                <select name="unit" id="unit">
+                    <option value="lbs" selected>pounds</option>
+                    <option value="gr">grams</option>
+                    <option value="kg">kg</option>
+                    <option value="oz">ounces</option>
+                </select>
+            </div>
+            <div id="output">
+                <div id="unit-one">
+                    <h4>Unit One</h4>
+                    <div id="unit-one-output">something</div>
+                </div>
+
+                <div id="unit-two">
+                    <h4>Unit Two</h4>
+                    <div id="unit-two-output">something</div>
+                </div>
+
+                <div id="unit-three">
+                    <h4>Unit Three</h4>
+                    <div id="unit-three-output">something</div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
