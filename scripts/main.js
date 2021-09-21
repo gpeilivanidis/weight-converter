@@ -12,8 +12,10 @@ output.style.display = 'none';
 
 select.addEventListener('change', convertion);
 input.addEventListener('input', convertion);
-function convertion(){
-    output.style.display = 'block';
+function convertion(e){
+    if(e.type == 'input'){
+        output.style.display = 'block';
+    }
     switch(select.value){
         case 'lbs':
             input.setAttribute('placeholder', 'enter lbs here...');
